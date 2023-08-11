@@ -1,0 +1,32 @@
+.mainSection{
+  width: 1200px;
+}
+
+.timer{
+  background-color: rgb(46, 46, 45);
+border-radius: 10px;
+  display: inline-flex;
+
+
+}
+
+.field{
+    width: 100px;
+    height: 30px;
+   
+}
+
+.value{
+    color: white;
+   
+}
+
+.label{
+    color: white;
+}
+
+
+
+
+
+

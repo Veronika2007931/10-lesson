@@ -15,7 +15,6 @@ class CountdownTimer{
   start(){
     setInterval(() => {
        const timeLeft = this.targetDate - new Date 
-       console.log(timeLeft)
         const time = this.getTimeComponents(timeLeft)
         this.updateClockFace(time)
     }, 1000)
